@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>George Stavroulakis</Authors>
+    <Product>AISolve.LinearAlgebra</Product>
+    <PackageProjectUrl>https://github.com/mgroupntua/AISolve.MachineLearning</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mgroupntua/AISolve.MachineLearning</RepositoryUrl>
+    <Description>LinearAlgebra implementation of AISolve MachineLearning-based algorithms</Description>
+    <PackageId>MGroup.AISolve.LinearAlgebra</PackageId>
+    <PackageIconUrl>https://github.com/mgroupntua/AISolve.MachineLearning/raw/develop/AISolveLinearAlgebra.png</PackageIconUrl>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MGroup.AISolve.Core" Version="0.1.0-unstable.3" />
+    <PackageReference Include="MGroup.LinearAlgebra" Version="0.1.0-unstable.130" />
+    <PackageReference Include="MGroup.MachineLearning.TensorFlow" Version="0.2.0-unstable.35" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MGroup.AISolve.MachineLearning\MGroup.AISolve.MachineLearning.csproj" />
+  </ItemGroup>
+
+</Project>
